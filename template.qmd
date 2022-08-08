@@ -1,5 +1,5 @@
 ---
-title: "Demo aft format to use as template"
+title: "Title"
 format:
   aft-pdf:
     keep-tex: true  
