@@ -1,28 +1,23 @@
 ---
-title: "Title"
+title: "Manuscript Title"
 format:
   aft-pdf:
     keep-tex: true  
   aft-html: default
 author:
-  - name: John Doe
+  - name: Peter Bloomingdale
     affiliations:
-      - name: Dummy org
-        department: Cool Dep
-        address: Somewhere
-        city: Magic city
-        country: best one
-        postal-code: 9999
-      - Demo Journal
-    orcid: 0000-0000-0000-0000
-    email: JD@example.org
-    url: https://example.org/
-  - name: his friend
-    affiliations:
-      - Another Affiliation
+      - name: Boehringer Ingelheim
+        department: Pharmacometrics
+        city: Boston, MA
+        country: USA
+    orcid: 0000-0003-2860-6488
+    email: email
 abstract: |
-  This document is only a demo explaining how to use the template.
-keywords: [template, demo]
+  Manuscript Abstract
+keywords:
+  - Pharmacokinetics
+  - Pharmacodynamics
 bibliography: bibliography.bib  
 ---
 
