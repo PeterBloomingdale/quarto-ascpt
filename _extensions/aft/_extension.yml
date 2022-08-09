@@ -1,6 +1,6 @@
-title: Article Format Template
-author: Christophe Dervieux
-version: 0.1.0
+title: ASCPT Journal Template
+author: Peter Bloomingdale
+version: 1
 contributes:
   formats:
     common:
@@ -36,7 +36,7 @@ contributes:
         - "partials/_authors.tex"
       format-resources:
         # Add here the resources required for the PDF rendering
-        - aft.cls
+        - cpt-pharmacometrics-and-systems-pharmacology.csl
         - te.bst
     html:
       # define default configuration for the html version of your format
@@ -44,4 +44,4 @@ contributes:
       toc: true
       theme: custom.scss
       # Use a CSL file to style (https://www.zotero.org/styles/)
-      csl: https://www.zotero.org/styles/journal-of-institutional-and-theoretical-economics
+      csl: cpt-pharmacometrics-and-systems-pharmacology.csl
